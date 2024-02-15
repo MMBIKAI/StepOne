@@ -1,41 +1,21 @@
-FizzBuzz in Go (first step for 15 iterations)
+# FizzBuzz in Go (First Step for 15 Iterations)
+
 This is a simple FizzBuzz implementation in Go.
 
-Description
-FizzBuzz is a common programming interview question. The task is to print the numbers from 1 to n, but for multiples of 3, print "Fizz" instead of the number, and for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
+## Description
+FizzBuzz is a common programming interview question. The task is to print the numbers from 1 to `n`, but for multiples of 3, print "Fizz" instead of the number, and for the multiples of 5, print "Buzz". For numbers which are multiples of both 3 and 5, print "FizzBuzz".
 
 This project demonstrates a basic implementation of FizzBuzz in Go, along with unit tests to ensure correctness.
 
-Files
-fizzbuzz.go: Contains the implementation of the FizzBuzz function.
-fizzbuzz_test.go: Contains the unit tests for the FizzBuzz function.
-Usage
+## Files
+- `fizzbuzz.go`: Contains the implementation of the FizzBuzz function.
+- `fizzbuzz_test.go`: Contains the unit tests for the FizzBuzz function.
+
+## Usage
 To run the FizzBuzz program, you can execute the following command:
-
-go
-Copy code
+```bash
 go run fizzbuzz.go
-To run the unit tests, you can execute the following command:
 
-bash
-Copy code
-go test -v
-Example
-Here is an example output of the FizzBuzz program for n = 15:
-
-Copy code
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
 13
 14
 FizzBuzz
